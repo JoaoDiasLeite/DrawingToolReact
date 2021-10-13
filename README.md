@@ -1,12 +1,10 @@
-
-
+## Drawing Tool
+This program reads the `input.txt` file, executes a set of commands from the file, step by step, and produces a `output.txt` file.
 ## Available Scripts
-In the project directory, you can run:
+In the project directory, you can run the program by using the following command:
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser. And the webpage will tell the rest of the rules.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+
 
