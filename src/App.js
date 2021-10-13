@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import React, { Component } from "react";
+import ReactGA from "react-ga";
 import './App.css';
+import Main from "./Components/Main";
 
-function App() {
+class App extends Component  {
+  constructor(props) {
+    super(props);
+    this.state = {
+      foo: "bar",
+      resumeData: {}
+    };
+
+    ReactGA.initialize("UA-110570651-1");
+    ReactGA.pageview(window.location.pathname);
+  }
+render(){
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Main />
+    
   );
+  }
 }
 
 export default App;
