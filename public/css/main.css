@@ -2,22 +2,22 @@ body {
     font-family: 'Trebuchet MS', sans-serif;
   }
 label{
-    padding-left: 2%;
+    padding-left: 37px;
 }
 #title{
-    padding-left: 2%;
+    padding-left: 37px;
 }
 .square {
 
-    height: 10%;
-    width: 13%;
+    height: 150px;
+    width: 125px;
     border-width:1px;
     border-style:solid;
     border-color:rgb(32, 14, 14);
   }
 #draw{
     border-radius: 9%;
-    margin-left: 4%;
+    margin-left: 37px;
     background-color: black;
     border: 1px solid #ccc;
     color:white;
@@ -30,7 +30,7 @@ input[type="file"] {
     display: none;
 }
 .custom-file-upload {
-    margin-left: 4%;
+    margin-left: 37px;
     border-radius: 8%;
     color: white;
     font-weight: bold;
